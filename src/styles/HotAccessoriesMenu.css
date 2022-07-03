@@ -1,0 +1,44 @@
+.hotAccessoriesMenu{
+    display: flex;
+    justify-content: center;
+}
+
+.hotAccessoriesLink{
+  color: rgb(94,94,94);
+  margin: 1vmax;
+  text-decoration:none;
+  padding: 0.5vmax 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.HotAccessoriesLink:hover{
+    text-decoration: none;
+    color: orangered;
+    border-bottom: 1px solid orangered;
+} 
+
+/*------------- HotAccessories- Style----------------- */
+
+.hotAccessories{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+}
+
+.hotAccessories > div:first-child > img{
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 22vw;
+  }
+
+  .hotAccessories > div:first-child > img:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+
+}
+
+
+.hotAccessories > div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+  }
